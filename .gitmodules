@@ -1,0 +1,6 @@
+[submodule "Ria"]
+	path = Ria
+	url = https://github.com/asakura89/Ria
+[submodule "Emi"]
+	path = Emi
+	url = https://github.com/asakura89/Emi

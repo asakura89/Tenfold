@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="Tenfold.MvcApplication" Language="C#" %>

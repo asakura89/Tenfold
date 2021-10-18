@@ -1,0 +1,31 @@
+@using System.Web.Optimization
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@Styles.Render("~/assets/styleb")
+
+<h2>Index</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form action="/Feedback/Submit" method="post">
+                <div class="mb-3">
+                    <label for="person-textbox" class="form-label">Person to be feedbacked to</label>
+                    <input type="text" class="form-control" id="person-textbox" name="person">
+                </div>
+                <div class="mb-3">
+                    <label for="positive-textbox" class="form-label">Positive things or Things he/she does well</label>
+                    <textarea class="form-control" id="positive-textbox" name="positive" aria-label="Positive things textbox"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="improvement-textbox" class="form-label">Things he/she needs improvement</label>
+                    <textarea class="form-control" id="improvement-textbox" name="improvement" aria-label="Things need improvement textbox"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
